@@ -1,0 +1,46 @@
+@import url('../theme/css/style.css');
+
+*{
+  box-sizing: border-box;
+  border: none;
+}
+
+form{
+  border: 1px solid #c0a375;
+  margin: 5px 0 5px 0;
+  padding: 5px;
+  box-shadow: 1px -1px 1px black;
+}
+
+.form-control{
+  width:80%;
+  margin: 1em;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+}
+
+input{
+  width: 80%;
+}
+
+.form-control:focus{
+  border: 2px solid #795548;
+}
+
+form.submitted input:focus:required:invalid,
+form.submitted textarea:focus:required:invalid {
+  border-color: red; color: black;
+}
+
+.center{
+  text-align: center;
+}
+
+.container{
+  margin-top: 2em;
+}
